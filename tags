@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DATA_BLOCK_SIZE	ring_buffer/ring_buffer.py	/^DATA_BLOCK_SIZE = 16$/;"	v
+READ_INDEX_BUFFER_SIZE	ring_buffer/ring_buffer.py	/^READ_INDEX_BUFFER_SIZE = 4$/;"	v
+RingBuffer	ring_buffer/ring_buffer.py	/^class RingBuffer:$/;"	c
+WRITE_INDEX_BUFFER_SIZE	ring_buffer/ring_buffer.py	/^WRITE_INDEX_BUFFER_SIZE = 8$/;"	v
+__init__	ring_buffer/ring_buffer.py	/^    def __init__(self, name, size, create):$/;"	m	class:RingBuffer
+__init__.py	ring_buffer/__init__.py	1;"	F
+__init__.py	tests/__init__.py	1;"	F
+_create_or_attach_buff	ring_buffer/ring_buffer.py	/^    def _create_or_attach_buff(self):$/;"	m	class:RingBuffer
+_messages	tests/test_ring_buffer.py	/^def _messages(count):$/;"	f
+_overtaking_read	ring_buffer/ring_buffer.py	/^    def _overtaking_read(self, writer_pos, reader_pos, water_mark_pos):$/;"	m	class:RingBuffer
+_put	ring_buffer/ring_buffer.py	/^    def _put(self, data, start_offset, end_offset):$/;"	m	class:RingBuffer
+_reader_buff_name	ring_buffer/ring_buffer.py	/^    def _reader_buff_name(self):$/;"	m	class:RingBuffer
+_wrap_around	ring_buffer/ring_buffer.py	/^    def _wrap_around(self, writer_pos):$/;"	m	class:RingBuffer
+_writer_buff_name	ring_buffer/ring_buffer.py	/^    def _writer_buff_name(self):$/;"	m	class:RingBuffer
+create_buffer	tests/test_ring_buffer.py	/^def create_buffer():$/;"	f
+destroy	ring_buffer/ring_buffer.py	/^    def destroy(self):$/;"	m	class:RingBuffer
+get	ring_buffer/ring_buffer.py	/^    def get(self):$/;"	m	class:RingBuffer
+put	ring_buffer/ring_buffer.py	/^    def put(self, b):$/;"	m	class:RingBuffer
+pytest	tests/test_ring_buffer.py	/^import pytest$/;"	i
+random	tests/test_ring_buffer.py	/^import random$/;"	i
+reader_pos	ring_buffer/ring_buffer.py	/^    def reader_pos(self):$/;"	m	class:RingBuffer
+ring_buffer.py	ring_buffer/ring_buffer.py	1;"	F
+shared_memory	ring_buffer/ring_buffer.py	/^from multiprocessing import shared_memory$/;"	i
+string	tests/test_ring_buffer.py	/^import string$/;"	i
+struct	tests/test_ring_buffer.py	/^import struct$/;"	i
+test_attach_with_existing_buffer	tests/test_ring_buffer.py	/^def test_attach_with_existing_buffer(buffer):$/;"	f
+test_creates_buffers_with_right_size_and_name	tests/test_ring_buffer.py	/^def test_creates_buffers_with_right_size_and_name(buffer):$/;"	f
+test_put_moves_writer_and_watermark_offsets_when_no_wrap_around	tests/test_ring_buffer.py	/^def test_put_moves_writer_and_watermark_offsets_when_no_wrap_around(buffer):$/;"	f
+test_put_moves_writer_and_watermark_offsets_when_wrap_around	tests/test_ring_buffer.py	/^def test_put_moves_writer_and_watermark_offsets_when_wrap_around(buffer):$/;"	f
+test_ring_buffer.py	tests/test_ring_buffer.py	1;"	F
+watermark_pos	ring_buffer/ring_buffer.py	/^    def watermark_pos(self):$/;"	m	class:RingBuffer
+writer_pos	ring_buffer/ring_buffer.py	/^    def writer_pos(self):$/;"	m	class:RingBuffer
